@@ -8,6 +8,13 @@ const createPallete = () => {
     palleteElement.classList.add('palleteItem');
     palleteContainer.appendChild(palleteElement);
   }
+  updatePallete();
 }
+
+const updatePallete = () => {
+  for(let i = 0; i < palleteContainer.children.length; i++) {
+    colorize(palleteContainer.children[i])
+  }
+};
 
 createPallete();
