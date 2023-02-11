@@ -19,3 +19,11 @@ body {
 .palleteItem {
   transition: background-color .7s;
 }
+
+.palleteItem span {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: inline-block;
+  min-width: 80px;
+}
