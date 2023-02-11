@@ -16,3 +16,6 @@ body {
   overflow: hidden;
 }
 
+.palleteItem {
+  transition: background-color .7s;
+}
