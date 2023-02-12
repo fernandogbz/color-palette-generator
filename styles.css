@@ -7,11 +7,48 @@ body {
   font-weight: 700;
 }
 
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#linkedin {
+  text-decoration: none;
+}
+
+.profile-btn {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  border-left: 2px solid #ddd;
+}
+
+.profile-btn img {
+  width: 32px;
+  height: 32px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.profile-btn span {
+  color: black;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+
 #palleteContainer {
   width: 350px;
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  margin: 100px 0 10px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -40,4 +77,21 @@ button {
   color: #fff;
   border-radius: 4px;
   background: #000;
+}
+
+.footer, .footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer a img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.dark .footer a img{
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
